@@ -12,3 +12,16 @@ proxies:
     path: /howdy
     headers:
       Host: sgovh-trojan.bonds.id
+- name: SG HE MUX
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 664ff270-2fe6-11ed-9a1a-1239d0255272
+  sni: sg6-trojan.bonds.id
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
