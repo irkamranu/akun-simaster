@@ -1,0 +1,14 @@
+proxies:
+- name: ID HRZ
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 86808d50-2fd5-11ed-bb2d-1239d0255272
+  sni: idtj-herza.bonds.id
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: idtj-herza.bonds.id
