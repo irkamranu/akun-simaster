@@ -12,16 +12,16 @@ proxies:
     path: /howdy
     headers:
       Host: idtj-herza.bonds.id
-- name: ID IKD
+- name: ID BIZNET
   server: 104.17.3.81
   port: 443
   type: trojan
-  password: 56b62360-2fe5-11ed-89d6-1239d0255272
-  sni: idtj-ikd.bonds.id
+  password: a2226690-2fe8-11ed-b5c1-1239d0255272
+  sni: id2-trojan.bonds.id
   udp: true
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: idtj-ikd.bonds.id
+      Host: id2-trojan.bonds.id
