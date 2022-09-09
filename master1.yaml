@@ -25,3 +25,17 @@ proxies:
     path: /howdy
     headers:
       Host: sg6-trojan.bonds.id
+- name: SG
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 1e3e4d0a-fa74-4086-b5e4-a293c1de3ace
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgmgrpc.mainssh.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmessgrpc
+  udp: true
