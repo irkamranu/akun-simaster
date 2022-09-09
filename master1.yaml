@@ -1,0 +1,14 @@
+proxies:
+- name: SG OVH
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 211a66c0-2fd4-11ed-9fd5-1239d0255272
+  sni: sgovh-trojan.bonds.id
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sgovh-trojan.bonds.id
