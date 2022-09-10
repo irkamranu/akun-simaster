@@ -1,6 +1,6 @@
 proxies:
 - name: ID
-  server: 104.17.3.81
+  server: 104.18.3.2
   port: 443
   type: vmess
   uuid: 1084fdc2-bb5e-4a45-ac9c-b122afcc524b
@@ -14,7 +14,7 @@ proxies:
     grpc-service-name: vmessgrpc
   udp: true
 - name: IND
-  server: 104.17.3.81
+  server: 104.18.3.2
   port: 443
   type: trojan
   password: mainssh-lulungun
