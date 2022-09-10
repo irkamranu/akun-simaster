@@ -1,6 +1,6 @@
 proxies:
 - name: SG
-  server: 172.217.15.78
+  server: 104.17.3.81
   port: 443
   type: vmess
   uuid: 1e3e4d0a-fa74-4086-b5e4-a293c1de3ace
@@ -14,12 +14,12 @@ proxies:
     grpc-service-name: vmessgrpc
   udp: true
 - name: SGP
-  server: 172.217.15.78
+  server: sg3tgrpc.mainssh.xyz
   port: 443
   type: trojan
   password: mainssh-jumalihe
   skip-cert-verify: true
-  sni: sg3tgrpc.mainssh.xyz
+  sni: kh.google.com
   network: grpc
   grpc-opts:
     grpc-service-name: trojangrpc
