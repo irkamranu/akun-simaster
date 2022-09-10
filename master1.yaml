@@ -13,3 +13,14 @@ proxies:
   grpc-opts:
     grpc-service-name: vmessgrpc
   udp: true
+- name: SGP
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: mainssh-jumalihe
+  skip-cert-verify: true
+  sni: sg3tgrpc.mainssh.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojangrpc
+  udp: true
